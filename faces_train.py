@@ -4,6 +4,7 @@ import numpy as np
 import pickle
 from PIL import Image
 
+# You can experiment with different classifiers (the same goes for face.py)
 face_cascade = cv2.CascadeClassifier('cascades/haarcascade_frontalface_alt2.xml')
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 
